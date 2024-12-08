@@ -26,3 +26,19 @@
             fill: red;
             cursor: pointer;
         }
+/* g 요소 안의 도형에 기본 스타일 적용 */
+.district polygon, .district polyline, .district path {
+    fill: #b3d9ff;
+    stroke: #333;
+    stroke-width: 1px;
+    transition: fill 0.3s ease;
+}
+
+/* g 요소 호버 시 색상 변경 */
+.district:hover polygon,
+.district:hover polyline,
+.district:hover path {
+    fill: #6ea8fe;
+    cursor: pointer;
+}
+
