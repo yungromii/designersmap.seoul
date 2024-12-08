@@ -1,8 +1,12 @@
  /* SVG 스타일 */
-        svg {
-            width: 100%;
+       body{
+        background-color: #FFFF99;
+       }
+
+        #seoul-map {
+            width: 95vw;
             height: auto;
-            border: 1px solid #ddd;
+           
         }
 
         /* 팝업 스타일 */
